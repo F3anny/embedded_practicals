@@ -5,6 +5,7 @@ Purpose: Read temperature data from Arduino via Serial and publish to MQTT broke
 Author: Temperature Monitoring System
 """
 
+import utils.session
 import serial
 import json
 import time
