@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IoT Temperature Dashboard</title>
+
+    <!-- MQTT -->
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>🌡️ IoT Temperature Dashboard</h1>
+        <p>Live data from Arduino + MQTT Broker</p>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="dashboard">
+
+        <div class="card">
+            <div class="card-title">Connection Status</div>
+            <div id="status">Connecting...</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Temperature</div>
+            <div id="temp">--°C</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Last Update</div>
+            <div id="time">--</div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        Temperature Monitoring System © 2026
+    </div>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+
+</body>
+</html>

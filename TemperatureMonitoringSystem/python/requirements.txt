@@ -1,0 +1,26 @@
+# IoT Temperature Monitoring System - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# MQTT Client Library
+paho-mqtt==1.6.1
+
+# Serial Communication Library  
+pyserial==3.5
+
+# JSON handling (built-in, but listed for clarity)
+# json - built-in module
+
+# Date/Time handling (built-in, but listed for clarity)  
+# datetime - built-in module
+
+# Regular expressions (built-in, but listed for clarity)
+# re - built-in module
+
+# Threading (built-in, but listed for clarity)
+# threading - built-in module
+
+# System utilities (built-in, but listed for clarity)
+# sys - built-in module
+
+# Time utilities (built-in, but listed for clarity)  
+# time - built-in module
